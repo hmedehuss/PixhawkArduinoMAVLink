@@ -4,7 +4,7 @@
 #include <PixhawkArduinoMAVLink.h>
 #include <HardwareSerial.h>
 
-HardwareSerial &hs = Serial1;
+HardwareSerial &hs = Serial;
 PixhawkArduinoMAVLink mav(hs);
 
 void setup(){
